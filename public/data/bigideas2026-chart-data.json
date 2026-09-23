@@ -1,0 +1,78 @@
+{
+  "source": "ARK Invest Big Ideas 2026 (research report; not investment advice)",
+  "pdf": "ARKInvest_BigIdeas2026.pdf",
+  "asOf": "2026",
+  "macro": {
+    "title": "The Great Acceleration — 2030 macro outcomes",
+    "notes": "ARK frames AI as the central dynamo accelerating five platforms",
+    "platforms": ["AI", "Public Blockchains", "Robotics", "Energy Storage", "Multiomics"],
+    "productivityScenariosUSD": [
+      {"label": "Status quo path", "workerProductivityGainUSD": 1.43e12, "globalImpactHint": "baseline"},
+      {"label": "AI productivity (mid)", "workerProductivityGainUSD": 3.4e12},
+      {"label": "AI productivity (higher)", "workerProductivityGainUSD": 7e12},
+      {"label": "AI productivity (bull)", "workerProductivityGainUSD": 13e12}
+    ],
+    "broaderOpportunityUSD": [
+      {"label": "Scenario A", "value": 22e12},
+      {"label": "Scenario B", "value": 57e12},
+      {"label": "Scenario C", "value": 117e12}
+    ]
+  },
+  "opportunityBars2030USD": [
+    {"id": "robotaxi-ev", "theme": "Robotaxis", "metric": "Enterprise value by 2030", "valueUSD": 34e12, "pageHint": 99},
+    {"id": "digital-assets", "theme": "Digital assets (ex-stablecoin crypto + BTC)", "metric": "Market value by 2030", "valueUSD": 28e12, "detail": "BTC ~70% → ~$16T; smart contracts ~$6T"},
+    {"id": "automation", "theme": "Automation / robotics revenue", "metric": "Revenue opportunity", "valueUSD": 26e12, "detail": "Industrial + household; humanoids unlock home"},
+    {"id": "tokenized", "theme": "Tokenized real-world assets", "metric": "Global market by 2030", "valueUSD": 11e12, "detail": "~1.38% of financial assets"},
+    {"id": "ai-agents-commerce", "theme": "AI agents online consumption", "metric": "Facilitated spend in 2030", "valueUSD": 8e12, "detail": "~25% of online spend by 2030"},
+    {"id": "power-capex", "theme": "Global power generation capex", "metric": "Cumulative investment by 2030", "valueUSD": 10e12, "detail": "~2× scale vs prior path to meet electricity demand"},
+    {"id": "ai-infra", "theme": "AI infrastructure investment", "metric": "Annual / category toward 2030", "valueUSD": 1.4e12, "detail": "Could triple to ~$1.4T in 2030"},
+    {"id": "ai-agent-software", "theme": "AI agent software revenue", "metric": "Revenue in 2030", "valueUSD": 0.9e12},
+    {"id": "autonomous-delivery", "theme": "Autonomous delivery", "metric": "Global revenue 2030", "valueUSD": 0.48e12},
+    {"id": "satellite-connectivity", "theme": "Satellite connectivity at scale", "metric": "Annual revenue potential", "valueUSD": 0.16e12}
+  ],
+  "bitcoin2030": {
+    "digitalAssetsTotalUSD": 28e12,
+    "bitcoinShare": 0.70,
+    "bitcoinMarketCapUSD": 16e12,
+    "smartContractsUSD": 6e12,
+    "digitalGoldTAMUSD": 200e12,
+    "penetrationScenarios": [
+      {"name": "Bear", "digitalGold": 0.20, "impactUSD": 3.5e12},
+      {"name": "Base", "digitalGold": 0.40, "impactUSD": 7.1e12},
+      {"name": "Bull", "digitalGold": 0.60, "impactUSD": 10.7e12}
+    ]
+  },
+  "arkkHoldingsSep22_2026": {
+    "note": "Revealed conviction from ARKK weights (stockanalysis / Finnhub as of Sep 22, 2026) — complements themes",
+    "top": [
+      {"symbol": "TSLA", "name": "Tesla", "weightPct": 9.19, "mapsTo": ["Robotaxis", "Humanoid robotics"]},
+      {"symbol": "SPCX", "name": "SpaceX (private)", "weightPct": 6.10, "mapsTo": ["Reusable rockets", "Satellite connectivity"]},
+      {"symbol": "TEM", "name": "Tempus AI", "weightPct": 5.72, "mapsTo": ["Multiomics", "AI diagnostics"]},
+      {"symbol": "CRCL", "name": "Circle", "weightPct": 5.15, "mapsTo": ["Stablecoins", "Tokenized assets"]},
+      {"symbol": "COIN", "name": "Coinbase", "weightPct": 4.65, "mapsTo": ["Digital assets rails"]},
+      {"symbol": "CRSP", "name": "CRISPR Therapeutics", "weightPct": 4.60, "mapsTo": ["Gene editing", "Multiomics"]},
+      {"symbol": "HOOD", "name": "Robinhood", "weightPct": 4.15, "mapsTo": ["Tokenized equities", "Crypto retail"]},
+      {"symbol": "TWST", "name": "Twist Bioscience", "weightPct": 3.78, "mapsTo": ["Multiomics tools"]},
+      {"symbol": "TXG", "name": "10x Genomics", "weightPct": 3.37, "mapsTo": ["Multiomics tools"]},
+      {"symbol": "SHOP", "name": "Shopify", "weightPct": 2.95, "mapsTo": ["AI agents / commerce"]},
+      {"symbol": "AMD", "name": "AMD", "weightPct": 2.88, "mapsTo": ["AI infrastructure"]},
+      {"symbol": "CBRS", "name": "Cerebras", "weightPct": 2.62, "mapsTo": ["AI infrastructure"]},
+      {"symbol": "PLTR", "name": "Palantir", "weightPct": 2.58, "mapsTo": ["AI productivity"]},
+      {"symbol": "CRWV", "name": "CoreWeave", "weightPct": 2.49, "mapsTo": ["AI infrastructure"]},
+      {"symbol": "NVDA", "name": "NVIDIA", "weightPct": 2.42, "mapsTo": ["AI infrastructure"]}
+    ]
+  },
+  "themeCards": [
+    {"id": "ai-infra", "title": "AI Infrastructure", "oneLiner": "Capex wave to train + serve models; ~$1.4T path by 2030.", "tickers": ["NVDA", "AMD", "CRWV", "CBRS", "AVGO"]},
+    {"id": "ai-consumer-os", "title": "AI Consumer OS / Agents", "oneLiner": "Agents mediate shopping & work; >$8T online consumption facilitated.", "tickers": ["SHOP", "META", "AMZN", "OPENAI (private)"]},
+    {"id": "ai-productivity", "title": "AI Productivity", "oneLiner": "Multi-trillion worker productivity uplift scenarios ($1.4T→$13T).", "tickers": ["PLTR", "MSFT-like platforms"]},
+    {"id": "bitcoin", "title": "Bitcoin", "oneLiner": "Institutional digital gold; ~$16T of ~$28T digital assets by 2030.", "tickers": ["BTC", "COIN", "MSTR-adjacent"]},
+    {"id": "tokenized", "title": "Tokenized Assets + Stablecoins", "oneLiner": "RWA >$11T; stablecoin volumes already multi-trillion/month peaks.", "tickers": ["CRCL", "COIN", "HOOD"]},
+    {"id": "multiomics", "title": "Multiomics", "oneLiner": "Cheap sequencing + AI → diagnostics & gene editing TAMs.", "tickers": ["TEM", "CRSP", "TWST", "TXG", "BEAM"]},
+    {"id": "rockets", "title": "Reusable Rockets", "oneLiner": "SpaceX cost collapse; Starlink + orbital upmass choke point.", "tickers": ["SPCX", "RKLB"]},
+    {"id": "robotics", "title": "Robotics / Humanoids", "oneLiner": "~$26T automation; household humanoid as GDP lever.", "tickers": ["TSLA", "ISRG-like", "embodied AI startups"]},
+    {"id": "energy", "title": "Distributed Energy / Power", "oneLiner": "~$10T cumulative power investment by 2030 to feed AI + GDP.", "tickers": ["grid / storage names"]},
+    {"id": "av", "title": "Autonomous Vehicles", "oneLiner": "Robotaxi EV ~$34T; Tesla production capacity as key wedge.", "tickers": ["TSLA"]},
+    {"id": "logistics", "title": "Autonomous Logistics", "oneLiner": "Delivery revenue ~$480B globally by 2030.", "tickers": ["AMZN", "delivery AV plays"]}
+  ]
+}
